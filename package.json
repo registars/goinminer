@@ -1,4 +1,5 @@
-{
+# In your project root:
+echo '{
   "name": "goinminer",
   "version": "1.0.0",
   "main": "index.js",
@@ -12,4 +13,4 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
-}
+}' > package.json
