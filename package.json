@@ -1,6 +1,11 @@
 {
-  "name": "GOINMiner",
+  "name": "goinminer",
   "version": "1.0.0",
+  "private": true,  // Jika proyek React
+  "scripts": {
+    "start": "react-scripts start",  // Sesuaikan dengan proyek Anda
+    "build": "react-scripts build"   // Opsional
+  },
   "dependencies": {
     "ethers": "^5.7.2",
     "web3": "^1.8.1",
